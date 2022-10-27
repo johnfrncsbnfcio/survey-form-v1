@@ -21,4 +21,10 @@ describe("Survey Model", function(){
 
         expect(result).to.equal("Error! Captcha input doesn't matched.");
     });
+
+    it('Should return trye', function(){
+        let x = true;
+
+        expect(x).to.equals(true);
+    });
 });
